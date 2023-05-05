@@ -1,0 +1,16 @@
+header{
+    height: 80px;
+}
+
+div.position-relative i.position-absolute{
+    top: 13px;
+    left: 16px;
+}
+
+.w_cs{
+    width: 50px;
+}
+
+ul{
+    list-style-type: none;
+}
