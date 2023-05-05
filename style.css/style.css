@@ -29,7 +29,6 @@ section.side-nav{
 section.content{
     width: calc(100% - 80px);
     height: calc(100vh - 70px);
-    background-color:bisque;
 }
 
 div.main-header{
