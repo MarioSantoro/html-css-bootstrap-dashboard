@@ -29,10 +29,19 @@
                     <i class="fa-solid fa-magnifying-glass position-absolute"></i>
                 </div>
                 <div class="col-1 col-lg-1 d-flex align-items-center justify-content-between ps-0">
-                        <i class="fa-solid fa-list-ul d-none d-lg-inline"></i></li>
-                        <i class="fa-solid fa-circle-question d-none d-lg-inline"></i></li>
-                        <i class="fa-solid fa-ellipsis-vertical d-none d-lg-inline"></i></li>
-                        <i class="fa-solid fa-bell text-warning ms-2 ms-lg-1"></i></li>
+                        <i class="fa-solid fa-list-ul d-none d-lg-inline"></i>
+                        <i class="fa-solid fa-circle-question d-none d-lg-inline"></i>
+                        <i class="fa-solid fa-ellipsis-vertical d-none d-lg-inline"></i>
+                    <div class="dropdown">
+                            <button class="btn border-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa-solid fa-bell text-warning ms-2 ms-lg-1"></i>
+                            </button>
+                            <ul class="dropdown-menu">
+                              <li><button class="dropdown-item" type="button">Profilo</button></li>
+                              <li><button class="dropdown-item" type="button">fatturazione</button></li>
+                              <li><button class="dropdown-item" type="button">Logout</button></li>
+                            </ul>
+                    </div>
                 </div>
             </div>
         </div>
@@ -76,7 +85,7 @@
                         </div>
                         <button class="btn_cs bg-dark_cs text-white fs_cs fw-bold">3 app</button>
                         <i class="fa-solid fa-angles-right mx-2"></i>
-                        <button class="btn_cs bg-dark_cs text-white fs_cs fw-bold fw-bold">+</button>
+                        <button class="btn_cs bg-dark_cs text-white fs_cs fw-bold fw-bold" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">+</button>
                     </div>
                     <div class="col-8 col-md-4 order-md-1 mb-3">
                         <p>Studenti online negli ultimi 30 minuti</p>
