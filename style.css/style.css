@@ -64,7 +64,6 @@ div.main-header{
 .fs_cs{
     font-size:.88rem;
 }
-
 @media  screen and (min-width:992px) {
     section.side-nav{
         width: 120px;
