@@ -7,8 +7,12 @@ div.position-relative i.position-absolute{
     left: 16px;
 }
 
-.w_cs{
+.w-50_cs{
     width: 50px;
+}
+
+.w-30_cs{
+    width: 30px;
 }
 
 ul{
@@ -38,12 +42,23 @@ div.main-header{
     height: 40px;
 }
 
+.bg-dark_cs{
+    background-color: rgba(0,0,0,0.3);
+}
+
+.txt-gray{
+    color: rgb(97, 94, 94);
+}
+
+.outline_cs{
+    outline: 1px solid rgb(97, 94, 94);
+}
+
 .btn_cs{
     padding: 0 .33rem;
     height: 25px;
     border: none;
     border-radius: 2rem;
-    background-color: rgba(0,0,0,0.3);
 }
 
 .fs_cs{
