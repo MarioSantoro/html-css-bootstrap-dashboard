@@ -76,7 +76,7 @@
                 <div class="row">
                     <div class="col-12 col-md-4 order-md-2 d-flex mb-3">
                         <p class="m-0 pt-2">Nuovo Studente</p>
-                        <button class="btn btn-outline-light btn-plus_cs fs-1 ms-3 py-1 px-1 d-flex align-items-center justify-content-center">+</button>
+                        <button class="btn btn-outline-light btn-plus_cs fs-1 ms-3 py-1 px-1 d-flex align-items-center justify-content-center" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">+</button>
                     </div>
                     <div class="col-12 col-md-4 order-md-0 mb-3">
                         <div>
@@ -85,7 +85,7 @@
                         </div>
                         <button class="btn_cs bg-dark_cs text-white fs_cs fw-bold">3 app</button>
                         <i class="fa-solid fa-angles-right mx-2"></i>
-                        <button class="btn_cs bg-dark_cs text-white fs_cs fw-bold fw-bold" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">+</button>
+                        <button class="btn_cs bg-dark_cs text-white fs_cs fw-bold fw-bold ">+</button>
                     </div>
                     <div class="col-8 col-md-4 order-md-1 mb-3">
                         <p>Studenti online negli ultimi 30 minuti</p>
@@ -296,5 +296,93 @@
             </div>  
         </section>
     </main>
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasExampleLabel">Inserisci un nuovo utente</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+           <div class="row mb-3">
+                <div class="col">
+                    <label for="formGroupExampleInput" class="form-label">Nome</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput">
+                </div>
+                <div class="col">
+                    <label for="formGroupExampleInput" class="form-label">Cognome</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput">
+                </div>
+           </div>
+           <div class="row mb-3">
+                <div class="col">
+                    <label for="formGroupExampleInput" class="form-label">Email</label>
+                    <div class="input-group">
+                        <div class="input-group-text">@</div>
+                        <input type="email" class="form-control" id="autoSizingInputGroup">
+                    </div>
+                </div>
+                <div class="col">
+                    <label for="formGroupExampleInput" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="formGroupExampleInput">
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col">
+                    <label for="formGroupExampleInput" class="form-label">Indirizzo Email</label>
+                    <div class="input-group">
+                        <div class="input-group-text">@</div>
+                        <input type="email" class="form-control" id="autoSizingInputGroup">
+                    </div>
+                </div>
+                <div class="col">
+                    <label for="formGroupExampleInput" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="formGroupExampleInput">
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col">
+                    <label for="formGroupExampleInput" class="form-label">Indirizzo</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput">
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-6">
+                    <label for="formGroupExampleInput" class="form-label">Città</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput">
+                </div>
+                <div class="col-4">
+                    <label for="formGroupExampleInput" class="form-label">Stato</label>
+                    <select class="form-select" aria-label="Default select example" id="formGroupExampleInput">
+                        <option selected>Scegli...</option>
+                        <option value="1">Italia</option>
+                        <option value="2">America</option>
+                        <option value="3">Francia</option>
+                      </select>
+                </div>
+                <div class="col-2">
+                    <label for="formGroupExampleInput" class="form-label">CAP</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput">
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col">
+                    <label for="formFile" class="form-label">Foto</label>
+                    <input class="form-control" type="file" id="formFile">
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col">
+                    <input type="checkbox" class="form-check-input" type="checkbox">
+                <span> Selezione per proseguire</span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <button class="btn btn-primary">Salva</button>
+                    <button class="btn btn-warning">Svuota</button>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
