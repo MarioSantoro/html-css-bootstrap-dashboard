@@ -1,5 +1,5 @@
 header{
-    height: 80px;
+    height: 70px;
 }
 
 div.position-relative i.position-absolute{
@@ -13,4 +13,17 @@ div.position-relative i.position-absolute{
 
 ul{
     list-style-type: none;
+}
+
+section.side-nav{
+    width: 80px;
+    height: calc(100vh - 70px);
+    background-color: #182135;
+    background-image: url(../img/sidebar-bg.png);
+}
+
+@media  screen and (min-width:992px) {
+    section.side-nav{
+        width: 120px;
+    }
 }
