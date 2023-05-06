@@ -1,28 +1,74 @@
+/*************************************
+
+UTILITIES
+
+ *************************************/
+
+ .w-50_cs{
+     width: 50px;
+ }
+ 
+ .w-30_cs{
+     width: 30px;
+ }
+ 
+ .btn-plus_cs{
+     width: 40px;
+     height: 40px;
+ }
+ 
+ .bg-dark_cs{
+     background-color: rgba(0,0,0,0.3);
+ }
+ 
+ .txt-gray{
+     color: rgb(97, 94, 94);
+ }
+ 
+ .outline_cs{
+     outline: 1px solid rgb(97, 94, 94);
+ }
+ 
+ .btn_cs{
+     padding: 0 .33rem;
+     height: 25px;
+     border: none;
+     border-radius: 2rem;
+ }
+ 
+ .fs_cs{
+     font-size:.88rem;
+ }
+
+
+/*************************************
+
+ CSS
+
+ *************************************/
+
+ /* HEADER */
 header{
     height: 70px;
 }
 
+/* SEARCH BAR */
 div.position-relative i.position-absolute{
     top: 13px;
     left: 16px;
 }
 
-.w-50_cs{
-    width: 50px;
-}
-
-.w-30_cs{
-    width: 30px;
-}
-
+/* OFFCANVAS */
 #offcanvasExample{
     width: 100%;
 }
 
+/* UL */
 ul{
     list-style-type: none;
 }
 
+/* SIDE-NAVBAR */
 section.side-nav{
     width: 80px;
     height: calc(100vh - 70px);
@@ -30,47 +76,28 @@ section.side-nav{
     background-image: url(../img/sidebar-bg.png);
 }
 
+/* CONTENT */
 section.content{
     width: calc(100% - 80px);
     height: calc(100vh - 70px);
 }
 
+/* MAIN HEADER */
 div.main-header{
     background-color: #5164e1;
     padding: 2rem 1rem;
 }
 
-.btn-plus_cs{
-    width: 40px;
-    height: 40px;
-}
-
-.bg-dark_cs{
-    background-color: rgba(0,0,0,0.3);
-}
-
-.txt-gray{
-    color: rgb(97, 94, 94);
-}
-
-.outline_cs{
-    outline: 1px solid rgb(97, 94, 94);
-}
-
-.btn_cs{
-    padding: 0 .33rem;
-    height: 25px;
-    border: none;
-    border-radius: 2rem;
-}
-
-.fs_cs{
-    font-size:.88rem;
-}
-
+/* TH */
 table th{
     width: 140px;
 }
+
+/*************************************
+
+ RESPONSIVE LARGE 
+
+ *************************************/
 @media  screen and (min-width:992px) {
     section.side-nav{
         width: 120px;
