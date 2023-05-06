@@ -79,4 +79,13 @@ table th{
     #offcanvasExample{
         width: 800px;
     }
+
+    section.side-nav li{
+        padding: .2rem;
+    }
+
+    section.side-nav li:hover{
+        background-color: rgba(255,255,255,0.6);
+        cursor: pointer;
+    }
 }
