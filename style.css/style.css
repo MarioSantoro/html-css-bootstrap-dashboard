@@ -93,6 +93,14 @@ table th{
     width: 140px;
 }
 
+.ms-1_cs{
+    margin-left: 10px;
+}
+
+.ms-2_cs{
+    margin-left: 15px;
+}
+
 /*************************************
 
  RESPONSIVE LARGE 
