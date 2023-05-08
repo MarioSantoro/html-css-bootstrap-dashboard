@@ -45,6 +45,11 @@ div.today{
     height: 5px;
 }
 
+div.testa span{
+    width: 35px;
+    height: 35px;
+}
+
 #perc-72{
     width: 72%;
 }
