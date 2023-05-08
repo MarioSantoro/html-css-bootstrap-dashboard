@@ -1,0 +1,62 @@
+main{
+    background-color: #fafbfe;
+}
+
+.w-40_cs{
+    width: 40px;
+    height: 38px;
+}
+
+.box-shadow_cs{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+div.cash-content{
+    background-color: #f9f9fd;
+}
+
+.circle{
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+}
+
+div.today{
+    top: 30%;
+    left: 7%;
+}
+
+.blue{
+    background-color: #727cf5;
+}
+
+.green{
+    background-color: #0acf97;
+}
+
+.white{
+    background-color: #ccc;
+}
+
+.bar{
+    width: 90%;
+    border-radius: 1rem;
+    height: 5px;
+}
+
+#perc-72{
+    width: 72%;
+}
+
+#perc-39{
+    width: 39%;
+}
+
+#perc-25{
+    width: 25%;
+}
+
+#perc-61{
+    width: 61%;
+}
